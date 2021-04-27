@@ -29,8 +29,8 @@ main {
 #imageDiv {
   background-image: url("../images/imageScore.jpg");
   background-size: cover;
-  height: 98%;
-  width: 98%;
+  height: 100%;
+  width: 100%;
   border-radius: 5px;
 }
 #loginFormContainer {
@@ -47,6 +47,9 @@ main {
   font-size: 40px;
   font-weight: bold;
   height: 5rem;
+  background: -webkit-linear-gradient(rgb(61, 202, 245), rgb(2, 2, 180));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #loginForm {
   width: 100%;
