@@ -64,6 +64,9 @@ main {
   border-radius: 5px;
   font-size: 17px;
 }
+#email {
+  margin-bottom: 1.5rem;
+}
 #loginForm button {
   border-radius: 50px;
   border: transparent;
@@ -74,6 +77,7 @@ main {
   transition: 0.2s ease;
   color: white;
   font-size: 17px;
+  margin-top: 2.5rem;
 }
 #loginForm button:hover {
   background: linear-gradient(45deg, rgb(68, 120, 141), rgb(114, 228, 236));
