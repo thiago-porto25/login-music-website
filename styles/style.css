@@ -1,0 +1,90 @@
+html {
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(47, 116, 143), rgb(78, 227, 238));
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+main {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 85vh;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+}
+#imageContainer {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#imageDiv {
+  background-image: url("../images/imageScore.jpg");
+  background-size: cover;
+  height: 97%;
+  width: 97%;
+  border-radius: 5px;
+}
+#loginFormContainer {
+  width: 35%;
+  height: 80%;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#loginFormContainer header {
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  height: 5rem;
+}
+#loginForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#loginForm input {
+  border: 1px solid gray;
+  width: 85%;
+  height: 2.5rem;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+}
+#loginForm button {
+  border-radius: 50px;
+  border: transparent;
+  background: linear-gradient(45deg, rgb(47, 116, 143), rgb(78, 227, 238));
+  width: 90%;
+  height: 3rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: white;
+  font-size: 17px;
+}
+#loginForm button:hover {
+  background: linear-gradient(45deg, rgb(68, 120, 141), rgb(114, 228, 236));
+}
+#forgetPassword {
+  width: 87%;
+  margin-top: 5px;
+}
+#forgetPassword a {
+  color: rgb(26, 147, 228);
+  text-decoration: none;
+}
+#forgetPassword a:hover {
+  text-decoration: underline;
+}
