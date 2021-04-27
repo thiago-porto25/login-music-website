@@ -30,8 +30,8 @@ main {
 #imageDiv {
   background-image: url("../images/imageScore.jpg");
   background-size: cover;
-  height: 97%;
-  width: 97%;
+  height: 98%;
+  width: 98%;
   border-radius: 5px;
 }
 #loginFormContainer {
