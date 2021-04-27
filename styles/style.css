@@ -25,7 +25,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 #imageDiv {
   background-image: url("../images/imageScore.jpg");
