@@ -1,6 +1,6 @@
 html {
   height: 100vh;
-  background: linear-gradient(45deg, rgb(47, 116, 143), rgb(78, 227, 238));
+  background: linear-gradient(45deg, rgb(43, 44, 44), rgb(82, 83, 83));
   background-repeat: no-repeat;
   font-family: sans-serif;
 }
@@ -13,7 +13,7 @@ body {
 main {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 75%;
   height: 85vh;
   margin: 0 auto;
   background-color: white;
@@ -31,7 +31,7 @@ main {
   background-size: cover;
   height: 100%;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
 }
 #loginFormContainer {
   width: 35%;
@@ -46,7 +46,9 @@ main {
   font-size: 40px;
   font-weight: bold;
   height: 5rem;
-  background: -webkit-linear-gradient(rgb(61, 202, 245), rgb(2, 2, 180));
+  width: 100%;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(25, 26, 26), rgb(185, 183, 183));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -70,7 +72,7 @@ main {
 #loginForm button {
   border-radius: 50px;
   border: transparent;
-  background: linear-gradient(45deg, rgb(47, 116, 143), rgb(78, 227, 238));
+  background: linear-gradient(45deg, rgb(28, 29, 29), rgb(82, 83, 83));
   width: 90%;
   height: 3rem;
   cursor: pointer;
@@ -80,16 +82,25 @@ main {
   margin-top: 2.5rem;
 }
 #loginForm button:hover {
-  background: linear-gradient(45deg, rgb(68, 120, 141), rgb(114, 228, 236));
+  background: linear-gradient(45deg, rgb(63, 65, 65), rgb(113, 114, 114));
 }
 #forgetPassword {
   width: 87%;
   margin-top: 5px;
 }
 #forgetPassword a {
-  color: rgb(26, 147, 228);
+  color: rgb(113, 114, 114);
   text-decoration: none;
 }
 #forgetPassword a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px){
+  #imageContainer {
+    display: none;
+  }
+  #loginFormContainer {
+    width: 100%;
+  }
 }
